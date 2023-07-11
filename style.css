@@ -136,6 +136,52 @@
 .extra-word {
     color: #E55473;
 }
-.hot-dial-img{
+
+.hot-dial-img {
     width: 65%;
+}
+
+/* insta section */
+.insta-section {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.insta-div {
+    display: flex;
+    width: 70%;
+    gap: 10px;
+    margin: auto;
+}
+.insta-img{
+    width: 100%;
+}
+
+/* latest section */
+.latest-section{
+    margin: 70px auto 0;
+    width: 70%;
+    border: 2px solid purple;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    border: none;
+}
+.input-div{
+    gap: 120px;
+    align-items: center;
+}
+.input{
+    height: 30px;
+    width: 480px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
 }
